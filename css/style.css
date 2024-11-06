@@ -26,19 +26,20 @@ section {
     HEADER
 --------------------*/
 .header-top {
-    background-color: #ADD8E6;
+    background-color: #3161E0;
     padding: 15px 0;
 }
 
 .header-top > .container {
     display: flex;
-    background-color: #DAA520;
+    align-items: center;
+    background-color: #3161E0;
 }
 
 .header-top .logo,
 .header-top nav,
 .header-top .login {
-    border: 2px dashed black;
+    /*border: 2px dashed black;*/
     padding: 10px;
 }
 
@@ -51,6 +52,11 @@ section {
     text-align: right;
 }
 
+.button1 {
+    border-radius: 20px;
+    padding: 12px;
+}
+
 .header-top nav {
     flex-grow: 1;
     text-align: center;
@@ -60,11 +66,12 @@ section {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .main-nav ul a {
     text-decoration: none;
+    color: white;
 }
 
 .header-bottom {
