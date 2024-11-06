@@ -55,6 +55,7 @@ section {
 .button1 {
     border-radius: 20px;
     padding: 12px;
+    cursor: pointer;
 }
 
 .header-top nav {
@@ -97,15 +98,43 @@ section {
 }
 
 #section1 .col-left, #section2 .col-right {
-    background-color: #1E90FF;
+    /*background-color: #1E90FF;*/
     width: 60%;
-    border: 2px dashed black;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    /*border: 2px dashed black;*/
 }
 
 #section1 .col-right, #section2 .col-left {
-    background-color: #FDC0CB;
+    /*background-color: #FDC0CB;*/
     width: 40%;
-    border: 2px dashed black;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    /*border: 2px dashed black;*/
+}
+
+.text {
+    padding: 40px 80px 40px 40px;
+}
+
+h2, h3, h4, h5 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.details {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.d5 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.h6 {
+    font-size: 24px;
+    padding-bottom: 30px;
 }
 
 #section2 .container {
@@ -124,10 +153,12 @@ section {
 
 #section4 .green-box {
     display: flex;
+    justify-content: center;
+    text-align: center;
     min-height: 900px;
     min-width: 1200px;
-    background-color: #228C21;
-    border: 2px dashed black;
+    /*background-color: #228C21;
+    border: 2px dashed black;*/
 }
 
 /*-------------------
