@@ -1,0 +1,179 @@
+/*-------------------
+    RESET
+--------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------
+    GENERAL
+--------------------*/
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*-------------------
+    HEADER
+--------------------*/
+.header-top {
+    background-color: #ADD8E6;
+    padding: 15px 0;
+}
+
+.header-top > .container {
+    display: flex;
+    background-color: #DAA520;
+}
+
+.header-top .logo,
+.header-top nav,
+.header-top .login {
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.header-top .logo,
+.header-top .login {
+    width: 20%;
+}
+
+.header-top .login {
+    text-align: right;
+}
+
+.header-top nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-nav ul a {
+    text-decoration: none;
+}
+
+.header-bottom {
+    background-color: #01118B;
+    padding: 50px 0px;
+}
+
+.header-bottom .hero {
+    margin: auto;   
+    background-color: #EE82EE;
+    min-height: 400px;
+    width: 75%;
+    border: 2px dashed black;
+}
+
+/*-------------------
+    MAIN
+--------------------*/
+
+#section1 {
+    display: flex;
+    min-height: 500px;
+}
+
+#section1 .col-left, #section2 .col-right {
+    background-color: #1E90FF;
+    width: 60%;
+    border: 2px dashed black;
+}
+
+#section1 .col-right, #section2 .col-left {
+    background-color: #FDC0CB;
+    width: 40%;
+    border: 2px dashed black;
+}
+
+#section2 .container {
+    display: flex;
+    min-height: 500px;
+}
+
+.bg-grey {
+    background-color: #D3D3D3;
+}
+
+#section4 {
+    display: flex;
+    background-color: #D3D3D3;
+}
+
+#section4 .green-box {
+    display: flex;
+    min-height: 900px;
+    min-width: 1200px;
+    background-color: #228C21;
+    border: 2px dashed black;
+}
+
+/*-------------------
+    FOOTER
+--------------------*/
+
+footer {
+    background-color: #23272A;
+}
+
+.footer-top {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.footer-top > .container {
+    display: flex;
+    min-height: 500px;
+}
+
+.footer-top .col-pink {
+    width: 30%;
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+
+.footer-top .col-blue {
+    width: 70%;
+    background-color: #20B2AA;
+    display: flex;
+}
+
+.footer-top .col-blue > .col-inside {
+    width: 25%;
+    border: 2px dashed white;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.footer-bottom > .container {
+    display: flex;
+    background-color: #7FFED4;
+    padding: 16px 0px;
+    justify-content: space-between;
+}
+
+.footer-logo, .btn {
+    background-color: #956E70;
+    border: 2px dashed black;
+    padding: 12px;
+}
+
