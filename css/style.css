@@ -54,8 +54,11 @@ section {
 
 .button1 {
     border-radius: 20px;
-    padding: 12px;
+    padding: 12px 20px;
     cursor: pointer;
+    border: none;
+    /*font-size: 16px;
+    max-height: 36px;*/
 }
 
 .header-top nav {
@@ -137,6 +140,15 @@ h2, h3, h4, h5 {
     padding-bottom: 30px;
 }
 
+.button4 {
+    background-color: #7289DA;
+    color: white;
+    border-radius: 20px;
+    padding: 12px;
+    cursor: pointer; 
+    border: none;
+}
+
 #section2 .container {
     display: flex;
     min-height: 500px;
@@ -198,20 +210,32 @@ footer {
 
 .footer-bottom {
     padding-top: 30px;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    /*border-top: 2px solid white;
+    border-bottom: 2px solid white;*/
 }
 
 .footer-bottom > .container {
     display: flex;
-    background-color: #7FFED4;
+    /*background-color: #7FFED4;*/
     padding: 16px 0px;
     justify-content: space-between;
+    border-top: 2px solid #4A5882;
 }
 
-.footer-logo, .btn {
-    background-color: #956E70;
-    border: 2px dashed black;
+.footer-logo, .button5 {
+    /*background-color: #956E70;
+    border: 2px dashed black;*/
     padding: 12px;
+}
+
+.button5 {
+    background-color: #8EA1E1;
+    font-size: 16px;
+    max-height: 46px;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
 }
 
