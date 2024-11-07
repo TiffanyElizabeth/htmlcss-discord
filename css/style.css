@@ -182,7 +182,7 @@ footer {
 }
 
 .footer-top {
-    padding-top: 10px;
+    padding-top: 80px;
     padding-bottom: 30px;
 }
 
@@ -195,6 +195,34 @@ footer {
     width: 30%;
     background-color: #f08080;
     border: 2px dashed black;
+}
+
+.h7 {
+    font-size: 28px;
+    color: #7289DA; 
+    padding-right: 135px;
+}
+
+.h7 > .ita-flag {
+    height: 5px;
+    width: auto;
+}
+
+.list {
+    font-size: 20px;
+    line-height: 1.5;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.list-title {
+    color: #7289DA;
+}
+
+.list-item {
+    color: white;
+    text-decoration: none;
 }
 
 .footer-top .col-blue {
