@@ -218,34 +218,45 @@ footer {
 
 .footer-top {
     padding-top: 80px;
-    padding-bottom: 30px;
 }
 
 .footer-top > .container {
     display: flex;
-    min-height: 500px;
+    /*min-height: 500px;*/
 }
 
 .footer-top .col-pink {
     width: 30%;
-    background-color: #f08080;
-    border: 2px dashed black;
+    /*background-color: #f08080;
+    border: 2px dashed black;*/
 }
 
-.h7 {
-    font-size: 28px;
+h7 {
+    font-size: 30px;
     color: #7289DA; 
     padding-right: 135px;
 }
 
-.h7 > .ita-flag {
-    height: 5px;
+.footer-details {
+    display: flex;
+    color: white;
+    padding-top: 20px;
+}
+
+.footer-details img {
+    max-height: 20px;
     width: auto;
 }
 
-.list {
+.footer-icons {
+    max-width: 36%;
+    justify-content: space-between;
     font-size: 20px;
-    line-height: 1.5;
+}
+
+.col-inside ul {
+    font-size: 18px;
+    line-height: 2.0;
     list-style: none;
     color: white;
     text-decoration: none;
@@ -255,20 +266,20 @@ footer {
     color: #7289DA;
 }
 
-.list-item {
-    color: white;
+.col-inside ul li a {
     text-decoration: none;
+    color: white;
 }
 
 .footer-top .col-blue {
     width: 70%;
-    background-color: #20B2AA;
+    /*background-color: #20B2AA;*/
     display: flex;
 }
 
 .footer-top .col-blue > .col-inside {
     width: 25%;
-    border: 2px dashed white;
+    /*border: 2px dashed white;*/
 }
 
 .footer-bottom {
@@ -282,23 +293,22 @@ footer {
     /*background-color: #7FFED4;*/
     padding: 16px 0px;
     justify-content: space-between;
+    align-items: center;
     border-top: 2px solid #4A5882;
 }
 
-.footer-logo, .button5 {
+.footer-logo, .btn-footer {
     /*background-color: #956E70;
     border: 2px dashed black;*/
-    padding: 12px;
+    padding: 20px;
+    margin-bottom: 40px;
 }
 
-.button5 {
+.btn-footer {
     background-color: #8EA1E1;
     font-size: 16px;
     max-height: 46px;
     color: white;
     padding: 12px 20px;
-    border-radius: 30px;
-    cursor: pointer;
-    border: none;
 }
 
