@@ -22,6 +22,12 @@ section {
     padding-bottom: 50px;
 }
 
+.btn {
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
 /*-------------------
     HEADER
 --------------------*/
@@ -52,13 +58,10 @@ section {
     text-align: right;
 }
 
-.button1 {
-    border-radius: 20px;
+.btn-1 {
+    font-size: 14px;
+    max-height: 40px;
     padding: 12px 20px;
-    cursor: pointer;
-    border: none;
-    /*font-size: 16px;
-    max-height: 36px;*/
 }
 
 .header-top nav {
@@ -79,16 +82,43 @@ section {
 }
 
 .header-bottom {
-    background-color: #01118B;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
     padding: 50px 0px;
 }
 
 .header-bottom .hero {
     margin: auto;   
-    background-color: #EE82EE;
+    /*background-color: #EE82EE*/;
     min-height: 400px;
     width: 75%;
-    border: 2px dashed black;
+   /* border: 2px dashed black;*/
+    text-align: center;
+}
+
+.header-bottom .hero h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.header-bottom .hero p {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.hero-btns {
+    font-size: 18px;
+    padding: 12px 24px;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    margin-left: 20px;
 }
 
 /*-------------------
@@ -147,6 +177,7 @@ h2, h3, h4, h5 {
     padding: 12px;
     cursor: pointer; 
     border: none;
+    font-size: 26px;
 }
 
 #section2 .container {
