@@ -165,19 +165,23 @@ h2, h3, h4, h5 {
     padding-right: 40px;
 }
 
-.h6 {
-    font-size: 24px;
+h6 {
+    font-size: 26px;
     padding-bottom: 30px;
 }
 
-.button4 {
+.stars {
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 30px;
+}
+
+.btn-avventura {
     background-color: #7289DA;
     color: white;
-    border-radius: 20px;
-    padding: 12px;
-    cursor: pointer; 
-    border: none;
-    font-size: 26px;
+    padding: 12px 24px;
+    font-size: 18px;
 }
 
 #section2 .container {
@@ -186,12 +190,12 @@ h2, h3, h4, h5 {
 }
 
 .bg-grey {
-    background-color: #D3D3D3;
+    background-color: #f6f6f6;
 }
 
 #section4 {
     display: flex;
-    background-color: #D3D3D3;
+    background-color: #f6f6f6;
 }
 
 #section4 .green-box {
